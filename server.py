@@ -23,7 +23,7 @@ def subtract():
     first=int(content['first'])
     second=int(content['second'])
     data={
-        "result":first+second
+        "result":first-second
     }
     return jsonify(data),200
 
